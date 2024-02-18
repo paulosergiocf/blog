@@ -4,12 +4,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* valor da borda é contabilizado de borda a borda*/
-  background-color: #111111;
-  color: #f2f2f2;
+  background-color:#212226;
+  color: #D7D7D9;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 a {
   text-decoration: none;
+}
+
+hr {
+  border-color: #3C3D40;
 }

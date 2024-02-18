@@ -20,7 +20,8 @@
 
 .content_description > p{
   margin-top: 15px;
-  color: rgb(184, 179, 179);
+  color: #9FA3A6;
+  width: 60%;
 }
 .botao_voltar{
   margin-top: 20px;
@@ -29,7 +30,8 @@
 .botao_voltar > a {
 
   border-radius: 5px;
-  background-color: rgb(43, 44, 44);
+  background-color: #3C3D40;
   padding: 1rem;
+  color: #D7D7D9;
 
 }
