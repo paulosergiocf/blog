@@ -2,10 +2,10 @@
 <div class="container_small-card">
   <div class="container_small-card-content">
     <div class="photo_small-card">
-      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flegaltracking.com.mx%2Fwp-content%2Fuploads%2F2020%2F01%2Fplaceholder-1024x683.png&f=1&nofb=1&ipt=7e92c5c441fd4004239960d9d7f234d0a31e6f2f63d10b728414260c01c6a248&ipo=images" alt="imagem-capa">
+      <img src="{{ photoCover }}" alt="imagem-capa">
     </div>
     <div class="title_small-card">
-      <h1>qualquer coisa agora</h1>
+      <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
     </div>
 
   </div>
